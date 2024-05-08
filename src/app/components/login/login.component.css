@@ -1,83 +1,79 @@
-.menu-login{
-    border-radius: 20px;
-    border-color: white;
-    
+.menu-login {
+  border-radius: 20px;
+  border-color: white;
+  background-color: white;
+  width: 350px;
+  height: 400px;
 }
 
-.llenar{
-    font-size: 20;
+.llenar {
+  font-size: 20;
+  text-align: center;
 }
 
-.llenar h1{
-    font-weight: 500;
-    margin-left: 10;
+.llenar h1 {
+  font-weight: 500;
+  margin-left: 18%;
+  text-align: start;
 }
 
-.llenar input{
-    margin: 10;
-    width: 270px;
-    height: 30;
-    font-size: 20px;
+.llenar input {
+  margin: 10;
+  width: 270px;
+  height: 30px;
+  font-size: 20px;
 }
 
-.buttonmenulogin{
-    margin-top: 20px; 
-    text-align: center;
+.buttonmenulogin {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 30px;
+  margin-left: 10%;
 }
 
-div.login{
-    margin: 10px;
+.login {
+  background-color: #ed117f;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 32px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
 }
 
-div.register{
-    margin: 10px;
+.register {
+  background-color: #3db6b1;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 32px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
 }
 
-.login a{
-    font-family: "League Spartan", sans-serif;
-    background-color: #D03733;
-    color: white;
-    border-radius: 50px;
-    border: none;
-    font-size: 32px;
-    padding: 10px 20px;
-    transition: background-color 0.3s;
-    cursor: pointer;
-    text-align: center;
-    font-weight: bold;
+div.forgotpsw {
+  margin: 10px;
+  text-align: center;
 }
 
-.register a{
-    font-family: "League Spartan", sans-serif;
-    background-color: #00C4CC;
-    color: white;
-    border-radius: 50px;
-    border: none;
-    font-size: 32px;
-    padding: 10px 20px;
-    transition: background-color 0.3s;
-    cursor: pointer;
-    text-align: center;
-    font-weight: bold;
-}
-
-div.forgotpsw{
-    margin: 10px;
-}
-
-div.forgotpsw a{
-    color: black !important;
-    font-size: 15px;
+div.forgotpsw a {
+  color: black !important;
+  font-size: 15px;
 }
 
 #loginoff {
-    position: fixed;
-    left: 91%;
-    top: 12%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-
-#loginoff::backdrop {
-    background-color: rgba(0, 0, 0, 0.5); /* Hacer que el fondo del modal sea transparente */
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1050;
 }

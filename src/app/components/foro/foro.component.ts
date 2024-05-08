@@ -1,4 +1,4 @@
-import { UiService } from './../../ui.service';
+import { UiService } from '../../services/ui.service';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 
 @Component({

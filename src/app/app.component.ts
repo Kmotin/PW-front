@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router'; // Importa Router y NavigationEnd
+import { Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs';
-import { UiService } from './ui.service';
+import { UiService } from './services/ui.service';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet, RouterLink } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar.component';
