@@ -9,6 +9,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { ForoComponent } from './components/foro/foro.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Importa esto si aún no está en tu proyecto
 
 @Component({
   selector: 'app-root',
@@ -22,9 +24,11 @@ import { ForoComponent } from './components/foro/foro.component';
     RegisterComponent,
     ForoComponent,
     RouterLink,
+    MatDialogModule,
+    BrowserAnimationsModule,
   ],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'], // Asegúrate de que el nombre de propiedad es styleUrls, no styleUrl
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   title = 'PetWellnes';
